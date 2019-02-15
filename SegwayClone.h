@@ -43,8 +43,8 @@ Uncomment one MODE below
 /*
 Uncomment one STEERING type below
 */
-//#define POT_STEERING
-#define MPU6050_X2_STEERING
+#define POT_STEERING
+//#define MPU6050_X2_STEERING
 //#define MPU6050_X1_STEERING
 //#define GY80_STEERING
 
@@ -68,13 +68,13 @@ Uncomment only if steering left and right are inverted
 /*
 Uncomment one CONTROLLER type below
 */
-#define PWM_PWM_CONTROLLER
+//#define PWM_PWM_CONTROLLER
 //#define PWM_DIR_CONTROLLER
 //#define ROBOCLAW_CONTROLLER
 //#define ROBOCLAW_ENCODER_CONTROLLER
 //#define ROBOCLAW_CRC_CONTROLLER
 //#define ROBOCLAW_CRC_ENCODER_CONTROLLER
-//#define SABERTOOTH_CONTROLLER
+#define SABERTOOTH_CONTROLLER
 //#define PWM_SHIELD_CONTROLLER
 //#define L298N_CONTROLLER
 //#define OSMC_CONTROLLER
@@ -82,12 +82,12 @@ Uncomment one CONTROLLER type below
 /*
 Uncomment if you want to check battery voltage.  See note above for resistor divider.
 */
-//#define VOLTAGE_CHECK
+#define VOLTAGE_CHECK
 
 /*
 Uncomment if you want LED Voltage indicator.  You need VOLTAGE_CHECK with this.
 */
-//#define VOLTAGE_LED
+#define VOLTAGE_LED
 
 /*
 Uncomment if you want Pushback
@@ -97,7 +97,7 @@ Uncomment if you want Pushback
 /*
 Uncomment if you have a HC06 "linvor" bluetooth module
 */
-//#define BLUETOOTH
+#define BLUETOOTH
 
 /*
 Uncomment if you have TC74 temperature sensors - TC74A0 and TC74A2 default addresses in TC74.h
