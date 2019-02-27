@@ -63,7 +63,7 @@ Uncomment only if using MPU6050_X2 and you want to compensate for terrain bankin
 /*
 Uncomment only if steering left and right are inverted
 */
-//#define INVERT_STEERING
+#define INVERT_STEERING
 
 /*
 Uncomment one CONTROLLER type below
