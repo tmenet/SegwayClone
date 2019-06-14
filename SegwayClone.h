@@ -58,7 +58,7 @@ Uncomment only if steer MPU6050 is vertically oriented
 /*
 Uncomment only if using MPU6050_X2 and you want to compensate for terrain banking
 */
-#define SUBTRACT_BANK_ANGLE			1.0		// defining this will subtract board bank angle from steer angle.  Value (0 to 1) defines how much bank is used.
+//#define SUBTRACT_BANK_ANGLE			1.0		// defining this will subtract board bank angle from steer angle.  Value (0 to 1) defines how much bank is used.
 
 /*
 Uncomment only if steering left and right are inverted
@@ -135,8 +135,8 @@ Initial values are loaded from KP_OFF, KD_OFF, and MOTOR_MAX_OFF.
 
 #define BUZZER_PIN			12
 #define POT_STEERING_PIN	A1				
-#define P_PIN				A0				// optional pot for adjusting P value (Proportional)
-#define D_PIN				A2				// optional pot for adjusting D value (Derivative)
+//#define P_PIN				A0				// optional pot for adjusting P value (Proportional)
+//#define D_PIN				A2				// optional pot for adjusting D value (Derivative)
 //#define POT_TILT_PIN	A4				// optional pot for adjusting forward/backward tilt
 
 #ifdef VOLTAGE_CHECK
