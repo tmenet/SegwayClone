@@ -113,7 +113,7 @@ Uncomment if you want the clone to be locked during startup.  It can only be unl
 Uncomment if you have a rider sensor - sensor must pull this pin to GND/LOW when rider is ON, and leave it open or HIGH when rider is OFF.
 Initial values are loaded from KP_OFF, KD_OFF, and MOTOR_MAX_OFF.
 */
-//#define RIDER_SENSOR	8
+#define RIDER_SENSOR	8
 
 /*
 Uncomment if RIDER_SENSOR above has reverse logic, ie HIGH when rider is ON and LOW when rider is OFF

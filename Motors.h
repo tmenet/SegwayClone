@@ -175,8 +175,8 @@
 #endif
 
 #ifdef SABERTOOTH_CONTROLLER
-//	#define MOTOR_MAX		127
-	#define MOTOR_MAX		20
+	#define MOTOR_MAX		127
+	//#define MOTOR_MAX		20
 	#define MOTOR_MAX_OFF	20			// MOTOR_MAX when rider sensor is OFF
 
 	#define SABERTOOTH_ADDRESS 0x80
