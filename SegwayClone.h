@@ -92,7 +92,7 @@ Uncomment if you want LED Voltage indicator.  You need VOLTAGE_CHECK with this.
 /*
 Uncomment if you want Pushback
 */
-//#define PUSHBACK
+#define PUSHBACK
 
 /*
 Uncomment if you have a HC06 "linvor" bluetooth module
